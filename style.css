@@ -1,0 +1,238 @@
+body{
+    margin: 0 auto;
+    background-color: #c5c57ecc;
+    }
+.content-container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+header{
+  display: flex;
+  justify-content: flex-end;
+}
+.uniform-pic{
+  background: url(img/meuniform.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  width: 200px;
+  margin-top: 15px;
+  }
+.top-text{
+    text-align: end;
+    padding-right: 200px;
+    font-size: 30px;
+}
+.top-words{
+  font-size: 30px;
+  height: 500px;
+  display: flex;
+  width: 33%;
+  padding-left: 10px;
+ }
+.top-section {
+  display: flex;
+  }
+.img-container{
+  width: 66%;
+}
+.image1{
+  background: url(img/fam.jpg);
+  background-position: center;
+  border: solid grey;    
+}
+.image2{
+  background: url(img/remix.jpg);
+  background-position: center;
+  border: solid purple;
+    
+}
+ .container:nth-child(1){
+  align-content: center;
+  justify-content: center;
+}
+.middle-section{
+  display: flex;
+}
+iframe{
+  width: 560px;
+  height: 500px;
+  display: flex;
+  justify-self: center;
+  align-content: center;
+}
+footer{
+  text-align: center;
+  color: salmon;
+}
+
+    @media screen and (min-width: 576px) {
+      .uniform-pic{
+        height: 150px;
+        width: 100px;
+      }        
+      .top-text{
+        text-align: end;
+        padding-right: 20px;
+        font-size: 18px;
+    }
+   .top-words{
+      font-size: 18px;
+      height: 370px;
+      display: flex;
+      width: 33%;
+      padding-left: 5px;
+      /* flex-wrap: wrap-reverse; */
+      
+    }
+  .img-container{
+    width: 370px;
+    height: 340px;
+  } 
+  .image1{
+      background-size: cover;
+      
+      }
+  .image2{
+      background-size: cover;
+      
+      }
+   iframe{
+    width: 360px;
+    height: 300px;
+    margin-left: 110px;
+          }
+    }
+
+  
+    @media screen and (min-width: 768px) {
+      .uniform-pic{
+        height: 300px;
+        width: 200px;}
+      .top-text{
+        text-align: end;
+        padding-right: 20px;
+        font-size: 30px;
+    }
+   .top-words{
+      font-size: 20px;
+      height: 370px;
+      display: flex;
+      width: 33%;
+      padding-left: 15px;
+      flex-wrap: wrap-reverse;
+      
+    }
+  .img-container{
+    width: 510px;
+    height: 280px;
+    margin-top: 30px;
+  } 
+  .image1{
+      background-size: contain;
+      background-repeat: no-repeat;
+      
+      }
+  .image2{
+      background-size: contain;
+      background-repeat: no-repeat;
+      }
+   iframe{
+    width: 360px;
+    height: 300px;
+    display: flex;
+    justify-self: center;
+    margin-left: 200px;
+      }
+    }
+ 
+
+    @media screen and (min-width: 992px) {
+      .uniform-pic{
+        height: 300px;
+        width: 200px;}
+      .top-text{
+        text-align: end;
+        padding-right: 25px;
+        font-size: 30px;
+    }
+   .top-words{
+      font-size: 21px;
+      height: 370px;
+      display: flex;
+      width: 33%;
+      padding-left: 15px;
+      padding-top: 20px;
+     margin-left: 30px;
+      
+    }
+  .img-container{
+    width: 498px;
+    height: 280px;
+    margin-top: 30px;
+  } 
+  .image1{
+      background-size: contain;
+      background-repeat: no-repeat;
+      
+      }
+  .image2{
+      background-size: contain;
+      background-repeat: no-repeat;
+      margin-left: 25px;
+      }
+   iframe{
+    width: 360px;
+    height: 300px;
+    display: flex;
+    justify-self: center;
+    margin-left: 310px;
+      }
+ }
+ 
+    @media screen and (min-width: 1200px) {
+      header{
+        display: flex;
+      }
+      .uniform-pic{
+        height: 300px;
+        width: 200px;}
+        
+      .top-text{
+        text-align: end;
+        padding-right: 25px;
+        font-size: 30px;
+    }
+   .top-words{
+      font-size: 25px;
+      height: 370px;
+      display: flex;
+      width: 33%;
+      padding-left: 10px;
+      margin-left: 10px;
+      
+    }
+  .img-container{
+    width: 66%;
+    height: 390px;
+   
+  } 
+  .image1{
+      
+      background-size: cover;
+      
+      }
+  .image2{
+    
+      background-size: cover;
+     
+      }
+   iframe{
+    width: 360px;
+    height: 300px;
+    display: flex;
+    justify-self: center;
+    margin-left: 420px;
+      }
+ }
